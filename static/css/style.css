@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.content {
+  margin: auto;
+  width: 30%;
+}
+.content TABLE,
+.content FORM {
+  width: 100%;
+}
