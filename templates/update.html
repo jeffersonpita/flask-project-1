@@ -6,6 +6,7 @@
 
 {% block body %}
 <div class="content">
+  <p>Here is my variable: {{ task }}</p>
   <h1 style="text-align: center;">Update Task</h1>
   <form method="POST" action="/update/{{task.id}}">
     <input type="text" value="{{task.content}}" name="content" id="content"/>

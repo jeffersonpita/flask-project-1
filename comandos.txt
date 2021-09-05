@@ -1,0 +1,19 @@
+
+cria o env
+$ virtualenv env
+
+ativa o env
+$ source env/bin/activate
+
+instalar sqlalchemy
+$ pip install flask flask-sqlalchemy flask-mongoengine
+
+
+rodar servidor
+$ python app.py
+
+
+entrar no python
+$ python
+>>> from app import db
+>>> db.create_all()
